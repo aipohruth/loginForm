@@ -105,4 +105,7 @@ a span:hover{
     .form-box{
         width: 95%;
    }
+      input{
+    width: 90%;
+}
 }
