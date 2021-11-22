@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(133, 163, 228);
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+.card{
+    
+    margin: 6% auto;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.button-box{
+    width: 150px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+    text-align: center;
+}
+.toggle-btn{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    padding: 10px 30px;
+    position: relative;
+    font-weight: bolder;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    background:  linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.form-box{
+    width: 350px;
+    margin:  10px;
+}
+input{
+    width: 80%;
+    margin: 10px 0px;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    background: transparent;
+}
+.btn-submit{
+    width: 40%;
+    margin:  25px 80px;
+    padding: 8px 8px;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: none;
+    cursor: pointer;
+    border: 0;
+    background: linear-gradient(to left, #ff105f, #ffad06 );
+    text-align: center;
+}
+.check-btn{
+   float: inline-start;
+}
+span{
+    margin: 6px 0px;
+    font-size: 10px;
+    color: #ff105f ;
+}
+a span:hover{
+    color:#866b35 ;
+}
+.icons img{
+    width: 20px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-top: 30px;
+    float: right;
+    cursor: pointer;
+}
+.icons img:hover{
+    padding: 10px;
+    transition: .5s;
+}
+@media (max-width:968px){
+    .card{
+        border-bottom: 2px solid blue;
+    }
+}
+@media (max-width:500px){
+    .card{
+       width: 95%;
+    }
+    .form-box{
+        width: 95%;
+   }
+}
