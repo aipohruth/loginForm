@@ -100,7 +100,7 @@ a span:hover{
 @media (max-width:500px){
     .card{
        width: 95%;
-       margin: 70% auto
+       margin: 30% auto
     }
     .form-box{
         width: 95%;
